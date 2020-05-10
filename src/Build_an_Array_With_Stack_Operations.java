@@ -32,7 +32,7 @@ public class Build_an_Array_With_Stack_Operations implements Problem {
 	}
 
 	@Override
-	public void solve() {
+	public Object solve() {
 		// TODO Auto-generated method stub
 	        String push = "Push";
 	        String pop = "Pop";
@@ -49,15 +49,11 @@ public class Build_an_Array_With_Stack_Operations implements Problem {
 	            
 	            supposed++;
 	        }
-	        
+	        return list;
 	        
 	}
 
-	@Override
-	public Object getSolution() {
-		// TODO Auto-generated method stub
-		return list;
-	}
+	
 	/*
 	 * Example 1:
 

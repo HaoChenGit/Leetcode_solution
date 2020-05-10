@@ -21,7 +21,7 @@ If there is no lucky integer return -1.
 	}
 
 	@Override
-	public void solve() {
+	public Object solve() {
 		Arrays.sort(this.arr);
 		int counter = 0;
 		int num = -1;
@@ -39,19 +39,8 @@ If there is no lucky integer return -1.
 		if(num == counter) {
 			result = num;
 		}
-		
+		return result;
 	}
 
-	
-	@Override
-	public Object getSolution() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public String toString() {
-		return this.result.toString();
-	}
 	
 }
